@@ -1,0 +1,55 @@
+@keyframes showUpLogin {
+    from {
+        margin-top: -15%;
+        /* transform: scale(0.6); */
+    }
+
+    to {
+        /* transform: scale(1); */
+        margin-top: center;
+    }
+}
+.container {  
+    background: white;
+    position: center;
+    width: 30%;
+    text-align: center;
+    border-radius: .4em;
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.6);
+    /* border: 1px solid #060b26; */
+    color: black;
+    padding: 0.5em;
+    margin: auto;
+    margin-top: 5%;
+    /* margin-left: 30%;
+    margin-right: 30%; */
+    font-size: 14px;
+    /* transition: animation 200ms ease; */
+    animation: 1s showUpLogin ease;
+}
+
+.container h1 {
+    padding: 5%;
+}
+
+/* .container:hover {
+    transform: scale(1.1); 
+    transition: transform 200ms ease;
+} */
+
+@media (max-width: 1100px){
+    .container {
+        width: 60%;
+    }
+}
+
+@media (max-width: 700px){
+    .container {
+        width: 80%;
+    }
+}
+
+.loading{
+    padding: 1em 1.5em;
+    margin: 10%;
+}

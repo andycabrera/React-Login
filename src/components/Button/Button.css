@@ -1,0 +1,18 @@
+.button{
+    text-decoration: none;
+    width: 70%;
+    padding: 1em 1.5em;
+    background: green;
+    border-radius: 0.3em;
+    margin: 10%;
+    color: white;
+    transition: transform 400ms ease;
+}
+
+.button:hover{
+    background-color: white;
+    border: 2px solid green;
+    color: green;
+    transform: scale(1.3); 
+    cursor: pointer;
+}
